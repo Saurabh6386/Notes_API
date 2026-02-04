@@ -15,6 +15,9 @@ It's a RESTful API for managing notes, but I focused on making it production-rea
     ```
 
 3.  **Setup DataBase**
+
+    Download and Install Mongodb on your PC if not installed as it is required to stored the notes and perform any kind of operation on it
+
     Edit the "connectDB.js" file in "config" folder and replace there mongoDB url with own.
     e.g = "mongodb://localhost:27017/notes_db" -> this is mine you also should have like this
 
